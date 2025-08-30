@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <MainButtonDef>
+    <defName>PG_PromptGenerator</defName>
+    <label>prompt generator</label>
+    <description>Export/inspect pawn data and prompts.</description>
+
+    <!-- Your tab window class (see step 2) -->
+    <tabWindowClass>PromptGenerator.MainTabWindow_PromptGenerator</tabWindowClass>
+
+    <!-- Sort between World (70) and History -->
+    <order>75</order>
+
+    <!-- Optional niceties -->
+    <iconPath>UI/Buttons/MainButtons/IconPromptGen</iconPath>
+    <validWithoutMap>true</validWithoutMap>
+    <closesWorldView>true</closesWorldView>
+    <!-- <defaultHotKey>F9</defaultHotKey>  choose something free if you want -->
+  </MainButtonDef>
+</Defs>
